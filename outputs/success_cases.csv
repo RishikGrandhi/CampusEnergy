@@ -1,0 +1,9 @@
+timestamp,actual_kwh,predicted_kwh,baseline_kwh,absolute_error,baseline_absolute_error,temperature_c,occupied,event_type,analysis_note
+2026-06-09 09:00:00,67.389,67.40168368284499,66.025,0.012683682844993882,1.36399999999999,27.78,1,normal,Representative low-error prediction from untouched final test data.
+2026-06-08 19:00:00,27.323,27.30399113512252,30.784,0.019008864877481102,3.4609999999999985,24.24,0,normal,Representative low-error prediction from untouched final test data.
+2026-06-05 07:00:00,31.085,31.06409476925851,27.193,0.020905230741490755,3.8919999999999995,27.16,0,normal,Representative low-error prediction from untouched final test data.
+2026-06-17 09:00:00,72.998,72.96703438034184,61.128,0.03096561965816136,11.870000000000005,29.96,1,normal,Representative low-error prediction from untouched final test data.
+2026-06-06 03:00:00,23.149,23.11121956043957,22.011,0.0377804395604322,1.1380000000000017,21.92,0,normal,Representative low-error prediction from untouched final test data.
+2026-06-13 08:00:00,28.033,28.08304537541708,51.185,0.050045375417077764,23.152,24.83,0,normal,Representative low-error prediction from untouched final test data.
+2026-06-21 00:00:00,24.807,24.85925746965451,23.862,0.05225746965450995,0.9450000000000003,21.41,0,normal,Representative low-error prediction from untouched final test data.
+2026-06-14 12:00:00,36.203,36.25973660714284,72.265,0.056736607142838125,36.062,29.88,0,normal,Representative low-error prediction from untouched final test data.

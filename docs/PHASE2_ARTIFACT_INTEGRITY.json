@@ -1,0 +1,89 @@
+{
+  "verified_on": "2026-10-24",
+  "algorithm": "SHA256",
+  "comparison": "pre-Phase-2 versus post-implementation and full pytest",
+  "files_compared": 20,
+  "files_changed": 0,
+  "files": [
+    {
+      "path": "artifacts/feature_importance.csv",
+      "sha256": "237E3ECD64DAC7DC79C9BEDB900794FDE8E05D52CBC2B9880FFF2F6F78A7E16B"
+    },
+    {
+      "path": "artifacts/metrics.json",
+      "sha256": "40820B4ADA79E49A580B7713B37121AA9CD6FA9B2363DD289185194979E544EA"
+    },
+    {
+      "path": "artifacts/model_bundle.joblib",
+      "sha256": "6666E3DCDB1D2F18445F03C72EDC54C97FE03064F98BEBD1BF515BF63DE0CDF2"
+    },
+    {
+      "path": "artifacts/split_metadata.json",
+      "sha256": "4D1602B0CEB53200DC236BEF8F4E424040AE60DDEE0959A1121D3864BE0858F2"
+    },
+    {
+      "path": "artifacts/training_metadata.json",
+      "sha256": "E8138D48E28BFD827AFE6737B16376B05AEE85A58CF6DEE130341E80611ED5D7"
+    },
+    {
+      "path": "data/processed/featured_energy_data.csv",
+      "sha256": "4E88FC1557ABF9809A5C6DCE30493C332D03FB4BB6830C98EC20D22FA2E20F19"
+    },
+    {
+      "path": "data/raw/campus_energy_hourly.csv",
+      "sha256": "3FF63B26F609F1FD15B536E7E78921BAE03B7C3ACEE1575C935FFE79C9DF838D"
+    },
+    {
+      "path": "data/raw/dataset_metadata.json",
+      "sha256": "497EA69872629C8A56575D82B6F8B93DD654AD14961E9ED097D749183D165C62"
+    },
+    {
+      "path": "outputs/failure_cases.csv",
+      "sha256": "AE1F736487BCC09A251422CAD7AD33FAB72A204948FA9C43D55E7FE27527ADEF"
+    },
+    {
+      "path": "outputs/future_24h_forecast.csv",
+      "sha256": "F0F118E341BA1DC160C267C7E5BC23C6198924A9CDD290EEEE30385A60B0743A"
+    },
+    {
+      "path": "outputs/success_cases.csv",
+      "sha256": "EB15DA7F703F3C16939E08104ED030D9A3DB889C83F3E4E6AF03B46C95F0467D"
+    },
+    {
+      "path": "outputs/test_predictions.csv",
+      "sha256": "AB11C84E0332AB72EC4B43E5FC89D099CC26B9C41C4A990DEB2ED12B2AD91276"
+    },
+    {
+      "path": "outputs/charts/architecture_workflow.png",
+      "sha256": "B126681366019551F78EFBA81FBE9E0C5785C1DB9810534EBA9161E78901FBAE"
+    },
+    {
+      "path": "outputs/charts/baseline_vs_ml.png",
+      "sha256": "D666FA1DD3CA026EA745E211DA64FF86760333A811684E2F5A88F67D9D0FED4B"
+    },
+    {
+      "path": "outputs/charts/chronological_split.png",
+      "sha256": "A7C4B41B1947AD21AB2E31B0E2071D3D7B619077FB85E9BB25C5941FFFE2F9D6"
+    },
+    {
+      "path": "outputs/charts/feature_importance.png",
+      "sha256": "B7213A93E1180FB71813E004D344207E055A1CC3138BB0047511357C875A5894"
+    },
+    {
+      "path": "outputs/charts/final_test_metrics.png",
+      "sha256": "534BC98351A0BCF0ACE1D9F336E5E6FC2221EE354F3ECC311A98301A72AF9F34"
+    },
+    {
+      "path": "outputs/charts/future_24h_forecast.png",
+      "sha256": "CD4509D1DC0B8D9B9E8BC6244C82FDFB8ED3AECA31565B9F947C3ADF13E5921B"
+    },
+    {
+      "path": "outputs/charts/model_performance_comparison.png",
+      "sha256": "A106FD5AE7B5E57022C10DC88E01EAD8F34802F2E09C4B80C2E60D422D167E2B"
+    },
+    {
+      "path": "outputs/charts/test_actual_vs_ml.png",
+      "sha256": "C0A92A75AB2328CA7142E821D016C1D48E5688E1EFD886F4045CB42C9D4F2414"
+    }
+  ]
+}

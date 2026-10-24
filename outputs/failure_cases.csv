@@ -1,0 +1,9 @@
+timestamp,actual_kwh,predicted_kwh,baseline_kwh,absolute_error,baseline_absolute_error,temperature_c,occupied,event_type,analysis_note
+2026-06-17 12:00:00,126.252,83.66812057914305,79.961,42.583879420856945,46.291,31.36,1,laboratory_load,Known simulated unusual event was not supplied to the model.
+2026-06-17 13:00:00,124.812,82.30629476190478,74.483,42.50570523809522,50.32899999999999,31.52,1,laboratory_load,Known simulated unusual event was not supplied to the model.
+2026-06-17 11:00:00,125.054,83.441853677914,76.222,41.612146322086005,48.83200000000001,31.0,1,laboratory_load,Known simulated unusual event was not supplied to the model.
+2026-06-17 14:00:00,119.858,83.82822850796775,83.356,36.02977149203225,36.50200000000001,30.56,1,laboratory_load,Known simulated unusual event was not supplied to the model.
+2026-06-17 10:00:00,115.796,80.61073474358983,71.504,35.185265256410176,44.292,30.49,1,laboratory_load,Known simulated unusual event was not supplied to the model.
+2026-06-26 17:00:00,106.413,71.34105867216115,77.063,35.07194132783884,29.349999999999994,29.49,1,special_event,Known simulated unusual event was not supplied to the model.
+2026-06-26 19:00:00,61.91,28.865000905076254,32.685,33.04499909492374,29.224999999999994,26.19,0,special_event,Known simulated unusual event was not supplied to the model.
+2026-06-26 18:00:00,97.105,65.2528207020757,72.72,31.85217929792431,24.385000000000005,27.78,1,special_event,Known simulated unusual event was not supplied to the model.

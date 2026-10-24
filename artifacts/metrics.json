@@ -1,0 +1,73 @@
+{
+  "project": "CampusEnergy AI",
+  "data_disclosure": "Synthetic / simulated prototype campus energy data",
+  "generated_at_utc": "2026-10-24T16:11:05.165501+00:00",
+  "random_seed": 42,
+  "selection": {
+    "criterion": "lowest validation MAE",
+    "selected_model": "RandomForestRegressor",
+    "test_used_for_selection": false,
+    "validation_candidates": {
+      "HistGradientBoostingRegressor": {
+        "mae": 2.62827747647311,
+        "rmse": 4.895527511849466
+      },
+      "RandomForestRegressor": {
+        "mae": 2.618686365580432,
+        "rmse": 4.907737808341891
+      }
+    }
+  },
+  "final_test": {
+    "baseline_name": "Previous-day same-hour actual (t-24)",
+    "baseline": {
+      "mae": 9.258522435897438,
+      "rmse": 16.73162966423635
+    },
+    "ml_model": {
+      "mae": 2.9061409264601386,
+      "rmse": 5.352083025361685
+    },
+    "mae_improvement_percent": 68.6111801685293,
+    "test_rows": 624
+  },
+  "high_use": {
+    "rule": "90th percentile of training-period consumption",
+    "threshold_kwh": 84.882,
+    "future_flagged_hours": 2
+  },
+  "future_forecast": {
+    "rows": 24,
+    "start": "2026-06-30 00:00:00",
+    "end": "2026-06-30 23:00:00",
+    "input_disclosure": "Future temperature and occupancy are simulated/assumed prototype inputs. Temperature uses recent same-hour climatology plus a disclosed +2.0 \u00b0C warm-day planning offset.",
+    "lags_use_observed_history_only": true
+  },
+  "split": {
+    "method": "chronological, no shuffle",
+    "rows_after_lags": 4152,
+    "train": {
+      "rows": 2906,
+      "start": "2026-01-08 00:00:00",
+      "end": "2026-05-09 01:00:00"
+    },
+    "validation": {
+      "rows": 622,
+      "start": "2026-05-09 02:00:00",
+      "end": "2026-06-03 23:00:00"
+    },
+    "test": {
+      "rows": 624,
+      "start": "2026-06-04 00:00:00",
+      "end": "2026-06-29 23:00:00"
+    }
+  },
+  "limitations": [
+    "synthetic single-building data",
+    "simplified occupancy",
+    "assumed future temperature and occupancy",
+    "unexpected events are not known to the model",
+    "no live meter or BMS integration",
+    "scenario predictions are non-causal"
+  ]
+}

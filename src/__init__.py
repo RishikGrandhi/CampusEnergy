@@ -1,0 +1,2 @@
+"""CampusEnergy AI core package."""
+

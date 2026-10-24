@@ -1,0 +1,24 @@
+{
+  "model_name": "RandomForestRegressor",
+  "feature_columns": [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "temperature_c",
+    "occupied",
+    "lag_24",
+    "lag_168",
+    "sin_hour",
+    "cos_hour",
+    "sin_day_of_week",
+    "cos_day_of_week"
+  ],
+  "target_column": "consumption_kwh",
+  "random_seed": 42,
+  "fit_period": {
+    "start": "2026-01-08 00:00:00",
+    "end": "2026-06-03 23:00:00"
+  },
+  "selection_basis": "lowest validation MAE; final test was not used for selection",
+  "high_use_threshold_kwh": 84.882
+}
